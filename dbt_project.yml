@@ -15,7 +15,7 @@ test-paths: ["data-tests"]
 seed-paths: ["seeds"]
 macro-paths: ["macros"]
 snapshot-paths: ["snapshots"]
-# seed-paths: ["seeds", "jaffle-data"]  # Add this line to your dbt_project.yml
+seed-paths: ["seeds", "jaffle-data"]  # Add this line to your dbt_project.yml
 
 target-path: "target"
 clean-targets:
